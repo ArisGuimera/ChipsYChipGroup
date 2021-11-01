@@ -8,17 +8,15 @@ import com.cursokotlin.androidchips.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.apply {
-            btnAction.setOnClickListener { }
-            btnChoice.setOnClickListener { }
-            btnFilter.setOnClickListener { }
-            btnInput.setOnClickListener { }
-        }
-
+        binding.btnAction.setOnClickListener { startActivity(ChipActionActivity.create(this)) }
+        binding.btnChoice.setOnClickListener { startActivity(ChipChoiceActivity.create(this)) }
+        binding.btnFilter.setOnClickListener { startActivity(ChipFilterActivity.create(this)) }
+        binding.btnInput.setOnClickListener { startActivity(ChipInputActivity.create(this)) }
     }
 
 //    override fun onCreate(savedInstanceState: Bundle?) {

@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidChips">
         <activity
+            android:name=".ChipActionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChipChoiceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChipFilterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChipInputActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

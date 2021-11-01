@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_chip_action.xml" value="0.31015625" />
+        <entry key="app/src/main/res/layout/activity_chip_choice.xml" value="0.31015625" />
+        <entry key="app/src/main/res/layout/activity_chip_filter.xml" value="0.31015625" />
+        <entry key="app/src/main/res/layout/activity_chip_input.xml" value="0.31015625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2517185404106623" />
       </map>
     </option>
