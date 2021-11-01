@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnInput"
+        android:text="Chip tipo Input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnChoice"
+        android:text="Chip tipo Choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFilter"
+        android:text="Chip tipo Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAction"
+        android:text="Chip tipo Action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+<!--    <com.google.android.material.chip.ChipGroup-->
+<!--        android:id="@+id/group"-->
+<!--        app:singleSelection="true"-->
+<!--        app:selectionRequired="true"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <com.google.android.material.chip.Chip-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:chipStrokeColor="@color/black"-->
+<!--            app:chipStrokeWidth="2dp"-->
+<!--            style="@style/CustomChipStyle"-->
+<!--            android:text="Hello World!"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintLeft_toLeftOf="parent"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    </com.google.android.material.chip.ChipGroup>-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>
