@@ -14,6 +14,11 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="CustomChipStyle" parent="@style/Widget.MaterialComponents.Chip.Filter">
+    <style name="CustomChip" parent="Widget.MaterialComponents.Chip.Entry">
+        <item name="chipStrokeColor">@color/orange</item>
+        <item name="chipStrokeWidth">2dp</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="chipBackgroundColor">@color/orange_background</item>
     </style>
 </resources>

@@ -18,6 +18,27 @@ class MainActivity : AppCompatActivity() {
         binding.btnFilter.setOnClickListener { startActivity(ChipFilterActivity.create(this)) }
         binding.btnInput.setOnClickListener { startActivity(ChipInputActivity.create(this)) }
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    override fun onCreate(savedInstanceState: Bundle?) {
 //        super.onCreate(savedInstanceState)
@@ -37,10 +58,7 @@ class MainActivity : AppCompatActivity() {
 //        }
 //
 //        //Input
-////        group.setOnCheckedChangeListener { group, checkedId ->
-////            val chip = group.findViewById<Chip>(checkedId)
-////            group.removeView(chip)
-////        }
+////
 //
 //        //Choise
 //        group.setOnCheckedChangeListener { group, checkedId ->
@@ -49,4 +67,3 @@ class MainActivity : AppCompatActivity() {
 //        }
 //
 //    }
-}
